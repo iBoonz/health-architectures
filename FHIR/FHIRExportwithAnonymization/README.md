@@ -140,7 +140,7 @@ The FHIR Export with Anonymization uses the default settings in the Anonymizatio
 $EnvironmentName = "<NAME HERE>" #The name must be lowercase, begin with a letter, end with a letter or digit, and not contain hyphens.
 $EnvironmentLocation = "<LOCATION HERE>" #optional input. The default is eastus2
 
-./deployFHIRExportwithAnonymization.ps1 -EnviromentName $EnvironmentName -EnvironmentLocation $EnvironmentLocation #Environment Location is optional
+./deployFHIRExportwithAnonymization.ps1 -EnvironmentName $EnvironmentName -EnvironmentLocation $EnvironmentLocation #Environment Location is optional
 ```
 
 This deployment process may take 5 minutes or more to complete.
